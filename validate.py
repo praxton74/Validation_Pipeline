@@ -1,8 +1,3 @@
-# ============================================
-#   Outlier and Skewness Validation Pipeline
-# ============================================
-# PEP8 Compliant, Readable, Structured, and Well-Commented
-
 # -------- Step 1: Import Required Libraries --------
 import os
 import numpy as np
@@ -169,7 +164,7 @@ def combined_outlier_skew_pipeline(df, skew_thresh=1.0):
 
     return df_transformed, report
 
-# -------- Step 4: Main Driver Block --------
+# -------- Step 4: Main Block --------
 
 if __name__ == "__main__":
     df = pd.read_csv("Wisconsin_Breast_Cancer_Dataset.csv")
