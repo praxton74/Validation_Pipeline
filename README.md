@@ -1,4 +1,4 @@
-<b><H1>Outlier and Skewness Validation Pipeline<H1></b>
+<b><H1>Outlier and Skewness Validation Pipeline</H1></b>
 
 This project provides a robust, production-ready Python pipeline to detect and address skewness and outliers in numeric datasets.
 It is designed to streamline the data validation process before statistical analysis or machine learning model development.
